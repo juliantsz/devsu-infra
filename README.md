@@ -1,6 +1,6 @@
 # devsu-infra
 
-Este repositorio es el encargado de crear la infraestructura del proyecto usando terraform
+Este repositorio es el encargado de crear la infraestructura del proyecto usando terraform y amazon S3 con dynamoDB como backend para guardar el estado
 
 Se crea lo siguiente
 - vpc
