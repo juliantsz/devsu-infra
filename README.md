@@ -23,4 +23,4 @@ En la carpeta `k8s` encontramos los recursos usados para la configuración del c
 # Recomiendaciones
 
 - Tener un cluster por ambiente. En este caso use un solo cluster y usando namespaces separé los ambientes
-- Para tener un ambiente independeniente solo bastar con replicar la carpeta `aws/dev` y crear el ambiente que se requiera
+- Para tener un ambiente independeniente solo bastar con replicar la carpeta `aws/dev` y crear el ambiente que se requiera modificando los valores de las variables
