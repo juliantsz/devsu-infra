@@ -20,3 +20,7 @@ En la carpeta `k8s` encontramos los recursos usados para la configuración del c
 - `alb-controller` crea los recursos para instalar el plugin del alb ingress controller de amazon. Esto nos permite exponer servicios que están en el cluster de kubernetes
 - `argocd` instala los componentes de argocd
 
+# Recomiendaciones
+
+- Tener un cluster por ambiente. En este caso use un solo cluster y usando namespaces separé los ambientes
+- Para tener un ambiente independeniente solo bastar con replicar la carpeta `aws/dev` y crear el ambiente que se requiera
